@@ -6,7 +6,7 @@ var readlineSync = require("readline-sync");
 var userName = readlineSync.question("May I know your name? ");
 console.log("\n\nWelcome!! " + chalk.bold(userName) + "\nLet us play the game" + (chalk.green.bold(' DO YOU KNOW ME\n')));
 
-console.log(chalk.bold("\nI will be asking you questions about myself and you have to answer in yes/no.\nSo let's get started!\n"));
+console.log(chalk.bold("\nI will be asking you questions about myself and you have to answer.\nSo let's get started!\n"));
 console.log("___________________________________________________\n\n");
 
 var score = 0;
